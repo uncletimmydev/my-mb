@@ -1,0 +1,23 @@
+{
+  "imposters": [{
+    "port": "6969",
+    "protocol": "http",
+    "name": "mockja",
+    "stubs": [
+    {
+      "predicates": [ <% include health/success/success_predicates.ejs %> ],
+      "responses": [ <% include health/success/success_response.ejs %> ]
+    },
+    {
+      "predicates": [ <% include login/success/success_predicates.ejs %> ],
+      "responses": [ <% include login/success/success_response.ejs %> ]
+    },
+    {
+      "predicates": [ <% include login/fail/invalid_user_credentials_predicates.ejs %> ],
+      "responses": [ <% include login/fail/invalid_user_credentials_response.ejs %> ]
+    },
+    {
+      "responses": [ <% include proxy.ejs %> ]
+    }]
+  }]
+}

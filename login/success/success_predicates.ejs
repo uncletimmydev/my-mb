@@ -1,0 +1,18 @@
+{
+  "and": [
+    {
+      "equals": {
+        "method": "POST",
+        "path": "/v1/login"
+      }
+    },
+    {
+      "equals": {
+        "body": {
+          "username": "user",
+          "password": "password"
+        }
+      }
+    }
+  ]
+}
