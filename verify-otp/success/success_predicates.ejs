@@ -1,0 +1,18 @@
+{
+  "and": [
+    {
+      "equals": {
+        "method": "POST",
+        "path": "/v1/verify-otp"
+      }
+    },
+    {
+      "equals": {
+        "body": {
+          "otp": "123456",
+          "ref_code": "test"
+        }
+      }
+    }
+  ]
+}

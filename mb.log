@@ -1,8 +1,5 @@
-{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-01-31T15:47:52.399Z"}
-{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-01-31T15:47:52.437Z"}
-{"level":"info","message":"[http:6969 mockja] Open for business...","timestamp":"2025-01-31T15:47:52.445Z"}
-{"level":"info","message":"[http:6969 mockja] ::1:52541 => GET /v1/actuator/health","timestamp":"2025-01-31T15:48:00.214Z"}
-{"level":"info","message":"[http:6969 mockja] ::1:52552 => POST /v1/login","timestamp":"2025-01-31T15:48:06.668Z"}
-{"level":"info","message":"[http:6969 mockja] ::1:52554 => POST /v1/login","timestamp":"2025-01-31T15:48:11.299Z"}
-{"level":"info","message":"[http:6969 mockja] ::1:52563 => POST /v1/login","timestamp":"2025-01-31T15:48:14.366Z"}
-{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2025-01-31T15:48:24.885Z"}
+{"level":"info","message":"[mb:2525] mountebank v2.9.1 now taking orders - point your browser to http://localhost:2525/ for help","timestamp":"2025-01-31T16:09:53.014Z"}
+{"level":"info","message":"[mb:2525] PUT /imposters","timestamp":"2025-01-31T16:09:53.052Z"}
+{"level":"info","message":"[http:6969 mockja] Open for business...","timestamp":"2025-01-31T16:09:53.061Z"}
+{"level":"info","message":"[http:6969 mockja] ::1:52979 => POST /v1/verify-otp","timestamp":"2025-01-31T16:10:12.572Z"}
+{"level":"info","message":"[mb:2525] Adios - see you soon?","timestamp":"2025-01-31T16:11:06.289Z"}

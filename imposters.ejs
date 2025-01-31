@@ -9,6 +9,14 @@
       "responses": [ <% include health/success/success_response.ejs %> ]
     },
     {
+      "predicates": [ <% include otp/success/success_predicates.ejs %> ],
+      "responses": [ <% include otp/success/success_response.ejs %> ]
+    },
+    {
+      "predicates": [ <% include verify-otp/success/success_predicates.ejs %> ],
+      "responses": [ <% include verify-otp/success/success_response.ejs %> ]
+    },
+    {
       "predicates": [ <% include login/success/success_predicates.ejs %> ],
       "responses": [ <% include login/success/success_response.ejs %> ]
     },
