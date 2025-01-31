@@ -1,7 +1,1 @@
-This is demo of Moutebank
-```install```
-npm install -g mb
-```run mb```
-mb --configfile imposters.ejs
-
-```required node atleast 18.xx.xx```
+Required node 18.xx.xx, to install ```npm install -g mb```, to run ```mb --configfile imposters.ejs```
